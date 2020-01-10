@@ -1,0 +1,1116 @@
+2020-01-06 19:34:31 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "пшш". in W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('\xD0\xBF\xD1\x88\xD1\x88', Array)
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-01-06 19:34:31 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][info][application] $_GET = [
+    'r' => 'пшш'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM\";}'
+    'PHPSESSID' => '439fqc424mpad16nj1lprd3odt12kbkq'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,en-US;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM%22%3B%7D; PHPSESSID=439fqc424mpad16nj1lprd3odt12kbkq'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '6366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=%D0%BF%D1%88%D1%88'
+    'REQUEST_URI' => '/web/index.php?r=%D0%BF%D1%88%D1%88'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578328471.192
+    'REQUEST_TIME' => 1578328471
+    'argv' => [
+        0 => 'r=%D0%BF%D1%88%D1%88'
+    ]
+    'argc' => 1
+]
+2020-01-06 21:57:19 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][error][Error] Error: Class 'app\controllers\User' not found in W:\domains\groupproject\controllers\SiteController.php:130
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionAa()
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('aa', Array)
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/aa', Array)
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-01-06 21:57:19 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][info][application] $_GET = [
+    'r' => 'site/aa'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM\";}'
+    'PHPSESSID' => '439fqc424mpad16nj1lprd3odt12kbkq'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,en-US;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM%22%3B%7D; PHPSESSID=439fqc424mpad16nj1lprd3odt12kbkq'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '7148'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Faa'
+    'REQUEST_URI' => '/web/index.php?r=site%2Faa'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578337039.302
+    'REQUEST_TIME' => 1578337039
+    'argv' => [
+        0 => 'r=site%2Faa'
+    ]
+    'argc' => 1
+]
+2020-01-06 21:58:10 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in W:\domains\groupproject\controllers\SiteController.php on line 139. in W:\domains\groupproject\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2020-01-06 21:58:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/aa'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM\";}'
+    'PHPSESSID' => '439fqc424mpad16nj1lprd3odt12kbkq'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,en-US;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM%22%3B%7D; PHPSESSID=439fqc424mpad16nj1lprd3odt12kbkq'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '7157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Faa'
+    'REQUEST_URI' => '/web/index.php?r=site%2Faa'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578337089.159
+    'REQUEST_TIME' => 1578337089
+    'argv' => [
+        0 => 'r=site%2Faa'
+    ]
+    'argc' => 1
+]
+2020-01-06 22:38:12 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/signup in W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('signup', Array)
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-01-06 22:38:12 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM\";}'
+    'PHPSESSID' => '439fqc424mpad16nj1lprd3odt12kbkq'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,en-US;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM%22%3B%7D; PHPSESSID=439fqc424mpad16nj1lprd3odt12kbkq'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '7358'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578339492.653
+    'REQUEST_TIME' => 1578339492
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-01-06 22:38:41 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][error][Error] Error: Class 'app\models\SignupForm' not found in W:\domains\groupproject\controllers\SiteController.php:133
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionSignup()
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('signup', Array)
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-01-06 22:38:41 [127.0.0.1][-][439fqc424mpad16nj1lprd3odt12kbkq][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM\";}'
+    'PHPSESSID' => '439fqc424mpad16nj1lprd3odt12kbkq'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,en-US;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3e9176ca9560cf9bd2b1c09222283c97edf397a2cb3f1845b71396343e3db8f9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BwvlAOVUGnCnDXdGmajtVaByJyUJ3qSM%22%3B%7D; PHPSESSID=439fqc424mpad16nj1lprd3odt12kbkq'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '7362'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578339521.911
+    'REQUEST_TIME' => 1578339521
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-01-08 10:40:00 [127.0.0.1][1][a7o737cr6ntts1cpd9urbk3dgs233f32][error][ParseError] ParseError: syntax error, unexpected 'if' (T_IF), expecting ']' in W:\domains\groupproject\views\layouts\main.php:40
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('W:\\domains\\grou...', Array)
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(401): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\SiteController))
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(387): yii\base\Controller->renderContent('<div class="sit...')
+#3 W:\domains\groupproject\controllers\SiteController.php(66): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2020-01-08 10:39:59 [127.0.0.1][1][a7o737cr6ntts1cpd9urbk3dgs233f32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'a7o737cr6ntts1cpd9urbk3dgs233f32'
+    '_identity' => '42fca15d0e79b360c7daed2673f148fe75fab1e2413fa537989bdc60c71c4732a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"2g8Q0EbQvZqBeCYbgHOgRcCsz9mpgRaE\",2592000]\";}'
+    '_csrf' => 'a653023c216a7f1e8fc4e31aeb48ffc9a88886441b29f330ff874340c140b059a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jblBMFOXEzcM9yVQ8izEb9zuGv6i3u6J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rnpidit'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=a7o737cr6ntts1cpd9urbk3dgs233f32; _identity=42fca15d0e79b360c7daed2673f148fe75fab1e2413fa537989bdc60c71c4732a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222g8Q0EbQvZqBeCYbgHOgRcCsz9mpgRaE%22%2C2592000%5D%22%3B%7D; _csrf=a653023c216a7f1e8fc4e31aeb48ffc9a88886441b29f330ff874340c140b059a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jblBMFOXEzcM9yVQ8izEb9zuGv6i3u6J%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '10318'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/index.php'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578469199.93
+    'REQUEST_TIME' => 1578469199
+    'argv' => []
+    'argc' => 0
+]
+2020-01-08 10:46:37 [127.0.0.1][-][f3q9ke4ulr7lkkaiv3avt4nfk3j4fgop][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\web\View::redirect() in W:\domains\groupproject\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 W:\domains\groupproject\views\site\index.php(8): yii\base\Component->__call('redirect', Array)
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(348): require('W:\\domains\\grou...')
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('W:\\domains\\grou...', Array)
+#3 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\SiteController))
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 W:\domains\groupproject\controllers\SiteController.php(66): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2020-01-08 10:46:37 [127.0.0.1][-][f3q9ke4ulr7lkkaiv3avt4nfk3j4fgop][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'a653023c216a7f1e8fc4e31aeb48ffc9a88886441b29f330ff874340c140b059a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jblBMFOXEzcM9yVQ8izEb9zuGv6i3u6J\";}'
+    'PHPSESSID' => 'f3q9ke4ulr7lkkaiv3avt4nfk3j4fgop'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => '_csrf=a653023c216a7f1e8fc4e31aeb48ffc9a88886441b29f330ff874340c140b059a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jblBMFOXEzcM9yVQ8izEb9zuGv6i3u6J%22%3B%7D; PHPSESSID=f3q9ke4ulr7lkkaiv3avt4nfk3j4fgop'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '10392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578469597.925
+    'REQUEST_TIME' => 1578469597
+    'argv' => [
+        0 => 'r=site%2Findex'
+    ]
+    'argc' => 1
+]
+2020-01-08 14:54:13 [127.0.0.1][1][8i8cugddv01bksmccuj3cgqq06druinf][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: W:\domains\groupproject\views\owner\index.php in W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\OwnerController))
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\OwnerController))
+#2 W:\domains\groupproject\controllers\OwnerController.php(43): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\controllers\OwnerController->actionIndex()
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner/index', Array)
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2020-01-08 14:54:13 [127.0.0.1][1][8i8cugddv01bksmccuj3cgqq06druinf][info][application] $_GET = [
+    'r' => 'owner/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8i8cugddv01bksmccuj3cgqq06druinf'
+    '_identity' => '42fca15d0e79b360c7daed2673f148fe75fab1e2413fa537989bdc60c71c4732a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"2g8Q0EbQvZqBeCYbgHOgRcCsz9mpgRaE\",2592000]\";}'
+    '_csrf' => 'dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'viyivs'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=8i8cugddv01bksmccuj3cgqq06druinf; _identity=42fca15d0e79b360c7daed2673f148fe75fab1e2413fa537989bdc60c71c4732a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222g8Q0EbQvZqBeCYbgHOgRcCsz9mpgRaE%22%2C2592000%5D%22%3B%7D; _csrf=dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '11383'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=owner%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=owner%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578484453.565
+    'REQUEST_TIME' => 1578484453
+    'argv' => [
+        0 => 'r=owner%2Findex'
+    ]
+    'argc' => 1
+]
+2020-01-08 14:55:10 [127.0.0.1][1][8i8cugddv01bksmccuj3cgqq06druinf][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: W:\domains\groupproject\views\owner\index.php in W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\OwnerController))
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\OwnerController))
+#2 W:\domains\groupproject\controllers\OwnerController.php(43): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\controllers\OwnerController->actionIndex()
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner/index', Array)
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2020-01-08 14:55:10 [127.0.0.1][1][8i8cugddv01bksmccuj3cgqq06druinf][info][application] $_GET = [
+    'r' => 'owner/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8i8cugddv01bksmccuj3cgqq06druinf'
+    '_identity' => '42fca15d0e79b360c7daed2673f148fe75fab1e2413fa537989bdc60c71c4732a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"2g8Q0EbQvZqBeCYbgHOgRcCsz9mpgRaE\",2592000]\";}'
+    '_csrf' => 'dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'viyivs'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=8i8cugddv01bksmccuj3cgqq06druinf; _identity=42fca15d0e79b360c7daed2673f148fe75fab1e2413fa537989bdc60c71c4732a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%222g8Q0EbQvZqBeCYbgHOgRcCsz9mpgRaE%22%2C2592000%5D%22%3B%7D; _csrf=dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg%22%3B%7D'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '11390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=owner%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=owner%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578484510.333
+    'REQUEST_TIME' => 1578484510
+    'argv' => [
+        0 => 'r=owner%2Findex'
+    ]
+    'argc' => 1
+]
+2020-01-08 14:56:05 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: W:\domains\groupproject\views\owner\index.php in W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\OwnerController))
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\OwnerController))
+#2 W:\domains\groupproject\controllers\OwnerController.php(43): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\controllers\OwnerController->actionIndex()
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner/index', Array)
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2020-01-08 14:56:05 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][info][application] $_GET = [
+    'r' => 'owner/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg\";}'
+    'PHPSESSID' => 'fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => '_csrf=dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg%22%3B%7D; PHPSESSID=fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '11398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=owner%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=owner%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578484565.768
+    'REQUEST_TIME' => 1578484565
+    'argv' => [
+        0 => 'r=owner%2Findex'
+    ]
+    'argc' => 1
+]
+2020-01-08 15:01:41 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Не удалось проверить переданные данные. in W:\domains\groupproject\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2-gii\src\controllers\DefaultController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(155): yii\gii\controllers\DefaultController->beforeAction(Object(yii\base\InlineAction))
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#3 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('gii/default/vie...', Array)
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-01-08 15:01:41 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => '14MAhgoFen6pqzrJ7857gUcVbWCMFmNQLKjeWol0BeK94WzER0M1JuzRWYTWty3Qf3wXJe4vGSVr3ugzugEzqA=='
+    'Generator' => [
+        'modelClass' => 'app\\models\\Owner'
+        'searchModelClass' => 'app\\models\\OwnerSearch'
+        'controllerClass' => 'app\\controllers\\OwnerController'
+        'viewPath' => '@app\\views\\Owner'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg\";}'
+    'PHPSESSID' => 'fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '544'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://groupproject'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => '_csrf=dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg%22%3B%7D; PHPSESSID=fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '11518'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578484901
+    'REQUEST_TIME' => 1578484901
+    'argv' => [
+        0 => 'r=gii%2Fdefault%2Fview&id=crud'
+    ]
+    'argc' => 1
+]
+2020-01-08 15:09:52 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][error][Error] Error: Class 'app\controllers\AccessControl' not found in W:\domains\groupproject\controllers\OwnerController.php:24
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\Component.php(733): app\controllers\OwnerController->behaviors()
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Component.php(603): yii\base\Component->ensureBehaviors()
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(276): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 W:\domains\groupproject\vendor\yiisoft\yii2\web\Controller.php(185): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(155): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('owner/index', Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2020-01-08 15:09:52 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][info][application] $_GET = [
+    'r' => 'owner/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg\";}'
+    'PHPSESSID' => 'fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => '_csrf=dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg%22%3B%7D; PHPSESSID=fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '11720'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=owner%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=owner%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578485392.049
+    'REQUEST_TIME' => 1578485392
+    'argv' => [
+        0 => 'r=owner%2Findex'
+    ]
+    'argc' => 1
+]
+2020-01-08 15:13:07 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][error][ParseError] ParseError: syntax error, unexpected ';', expecting ']' in W:\domains\groupproject\views\layouts\main.php:39
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('W:\\domains\\grou...', Array)
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(401): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\SiteController))
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(387): yii\base\Controller->renderContent('<div class="sit...')
+#3 W:\domains\groupproject\controllers\SiteController.php(92): yii\base\Controller->render('login', Array)
+#4 [internal function]: app\controllers\SiteController->actionLogin()
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#9 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2020-01-08 15:13:07 [127.0.0.1][-][fouv1ka6ch43jtq0b6febrf73vs8dl0g][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg\";}'
+    'PHPSESSID' => 'fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php?r=owner%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => '_csrf=dfaa1f07ad8f4f2a40c68221130b243bed698a429dfc9d708ccc836ac1b4a81da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_SqTooiAcMeNQC6UxPLlDpEXud7vJDIg%22%3B%7D; PHPSESSID=fouv1ka6ch43jtq0b6febrf73vs8dl0g'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '11782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578485587.385
+    'REQUEST_TIME' => 1578485587
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2020-01-08 15:23:08 [127.0.0.1][-][pabvud15t4ltpgftc0uua3251tl5ble1][error][ParseError] ParseError: syntax error, unexpected ',' in W:\domains\groupproject\views\layouts\main.php:32
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('W:\\domains\\grou...', Array)
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(401): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\SiteController))
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(387): yii\base\Controller->renderContent('<div class="sit...')
+#3 W:\domains\groupproject\controllers\SiteController.php(92): yii\base\Controller->render('login', Array)
+#4 [internal function]: app\controllers\SiteController->actionLogin()
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#9 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2020-01-08 15:23:06 [127.0.0.1][-][pabvud15t4ltpgftc0uua3251tl5ble1][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '26e9bc1c79ed31f940daecebeae30bcd899a2230b61f00d9cb825aa6db944317a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uzhoyjHEHl7-o4eCIKfhHIQgA-AnjnpP\";}'
+    'PHPSESSID' => 'pabvud15t4ltpgftc0uua3251tl5ble1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => '_csrf=26e9bc1c79ed31f940daecebeae30bcd899a2230b61f00d9cb825aa6db944317a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uzhoyjHEHl7-o4eCIKfhHIQgA-AnjnpP%22%3B%7D; PHPSESSID=pabvud15t4ltpgftc0uua3251tl5ble1'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '12072'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578486185.321
+    'REQUEST_TIME' => 1578486185
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2020-01-08 15:34:29 [127.0.0.1][-][pabvud15t4ltpgftc0uua3251tl5ble1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::Логин in W:\domains\groupproject\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 W:\domains\groupproject\vendor\yiisoft\yii2\helpers\BaseHtml.php(2231): yii\base\Component->__get('\xD0\x9B\xD0\xBE\xD0\xB3\xD0\xB8\xD0\xBD')
+#1 W:\domains\groupproject\vendor\yiisoft\yii2\helpers\BaseHtml.php(1353): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\LoginForm), '\xD0\x9B\xD0\xBE\xD0\xB3\xD0\xB8\xD0\xBD')
+#2 W:\domains\groupproject\vendor\yiisoft\yii2\helpers\BaseHtml.php(1407): yii\helpers\BaseHtml::activeInput('text', Object(app\models\LoginForm), '\xD0\x9B\xD0\xBE\xD0\xB3\xD0\xB8\xD0\xBD', Array)
+#3 W:\domains\groupproject\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\LoginForm), '\xD0\x9B\xD0\xBE\xD0\xB3\xD0\xB8\xD0\xBD', Array)
+#4 W:\domains\groupproject\views\site\login.php(25): yii\widgets\ActiveField->textInput(Array)
+#5 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(348): require('W:\\domains\\grou...')
+#6 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('W:\\domains\\grou...', Array)
+#7 W:\domains\groupproject\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('W:\\domains\\grou...', Array, Object(app\controllers\SiteController))
+#8 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('login', Array, Object(app\controllers\SiteController))
+#9 W:\domains\groupproject\controllers\SiteController.php(92): yii\base\Controller->render('login', Array)
+#10 [internal function]: app\controllers\SiteController->actionLogin()
+#11 W:\domains\groupproject\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 W:\domains\groupproject\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 W:\domains\groupproject\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#14 W:\domains\groupproject\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#15 W:\domains\groupproject\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\groupproject\web\index.php(12): yii\base\Application->run()
+#17 {main}
+2020-01-08 15:34:28 [127.0.0.1][-][pabvud15t4ltpgftc0uua3251tl5ble1][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '26e9bc1c79ed31f940daecebeae30bcd899a2230b61f00d9cb825aa6db944317a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uzhoyjHEHl7-o4eCIKfhHIQgA-AnjnpP\";}'
+    'PHPSESSID' => 'pabvud15t4ltpgftc0uua3251tl5ble1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'ccjupoq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'groupproject'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 YaBrowser/19.12.3.320 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://groupproject/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,ms;q=0.8,la;q=0.7'
+    'HTTP_COOKIE' => '_csrf=26e9bc1c79ed31f940daecebeae30bcd899a2230b61f00d9cb825aa6db944317a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uzhoyjHEHl7-o4eCIKfhHIQgA-AnjnpP%22%3B%7D; PHPSESSID=pabvud15t4ltpgftc0uua3251tl5ble1'
+    'PATH' => 'w:\\modules\\php\\PHP_7.3-x64\\ext;w:\\modules\\php\\PHP_7.3-x64\\pear;w:\\modules\\php\\PHP_7.3-x64\\pear\\bin;w:\\modules\\php\\PHP_7.3-x64;w:\\modules\\imagemagick;w:\\modules\\wget\\bin;w:\\modules\\database\\MySQL-8.0-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'groupproject'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'W:/domains/groupproject'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'W:/domains/groupproject/web/index.php'
+    'REMOTE_PORT' => '12197'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1578486868.975
+    'REQUEST_TIME' => 1578486868
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
